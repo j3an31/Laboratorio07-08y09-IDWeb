@@ -1,0 +1,22 @@
+li:nth-child(odd) {  /*impares*/
+    background: #eee; 
+} 
+
+li:nth-child(even) { /*pares*/
+    background: #ccc; 
+}
+
+li::before { 
+content: "==> "; 
+} 
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(246, 245, 245);
+}
+
+li.hecha::after {
+    content: " \/";
+}
+
+

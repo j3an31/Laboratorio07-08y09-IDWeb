@@ -3,11 +3,11 @@ div p {
 }
 
 h2 + p {
-    color: aqua;
+    color: rgb(0, 255, 4);
 }
 
 h2 ~ p {
-    color: aquamarine;
+    color: rgb(7, 150, 102);
 }
 
 
