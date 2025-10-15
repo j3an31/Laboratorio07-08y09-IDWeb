@@ -1,0 +1,46 @@
+body {
+    display: grid;
+    background-color: beige;
+    text-align: center;
+    align-items: center; 
+}
+
+header,nav,footer {
+    padding: 18px;
+    border-radius: 15px;
+}
+
+header,footer {
+    background-color:aquamarine;
+}
+
+nav {
+    background-color: rgb(147, 147, 39);
+    display: flex;
+    margin: 5px;
+}
+
+nav div {
+    margin: 10px auto;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    gap: 16px;
+    padding: 18px;
+}
+
+article {
+    flex: 3;
+    padding: 100px;
+    background-color: chocolate;
+    border-radius: 15px;
+}
+
+aside {
+    flex: 1;
+    background-color: darkgray;
+    padding: 18px;
+    border-radius: 15px;
+}
