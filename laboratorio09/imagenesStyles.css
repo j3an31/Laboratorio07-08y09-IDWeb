@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box; /* Incluye padding y border dentro del ancho y alto total del elemento */
+  margin: 0; /* Elimina todos los márgenes externos */
+  padding: 0; /* Elimina todos los rellenos internos */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #f4f4f4; 
+  line-height: 1.5;
+}
+
+header {
+  text-align: center; 
+  background-color: #004aad; 
+  color: white; 
+  padding: 1.5rem 0; /* Espacio interno arriba y abajo (1.5rem), 0 a los lados */
+  margin-bottom: 1.5rem; /* Espacio debajo del header para separarlo del siguiente contenedor*/
+}
+
+.galeria {
+  display: grid; /* Activa el sistema de cuadrícula CSS Grid */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+  gap: 15px; /* Espacio entre las cajas (tanto filas como columnas) */
+  padding: 20px;
+}
+
+.imagen {
+  border: 10px solid #004aad; 
+  padding: 5px; /* Espacio interno entre el borde y la imagen */
+  margin: 5px; 
+  border-radius: 10px;
+  transition: transform 0.3s; 
+}
+
+.imagen img {
+  width: 100%; /* La imagen ocupa todo el ancho de su contenedor */
+  height: auto; /* Mantiene proporción original */
+  display: block; /* Evita espacios en blanco debajo de las imágenes inline */
+}
+
+.imagen:hover {
+  transform: scale(1.03); /* Aumenta ligeramente el tamaño (efecto zoom) */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Agrega sombra suave debajo para resaltar */
+}
+
+footer {
+  text-align: center; 
+  background-color: #004aad; 
+  color: white; 
+  padding: 1rem 0; 
+  margin-top: 2rem; /* Espacio externo arriba para separarlo del contenido anterior */
+}

@@ -10,8 +10,6 @@ div {
     margin: 20% auto;
     padding: 30px 10px;
     border-radius: 15px;
-    width: 80%; /* Ocupará el 90% del ancho del navegador */
-    max-width: 1600px; /* No crece más allá de 1200px en pantallas grandes */
+    width: 80%; 
+    max-width: 1600px;
 }
-
-
